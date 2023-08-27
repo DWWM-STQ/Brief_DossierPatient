@@ -1,4 +1,4 @@
-# Dossier Patients
+# [Dossier Patients](./profile/Doc/patients.pdf)
 Auteur : Didier ROLLAND <br>
 Binôme : Imene & Johan
 
