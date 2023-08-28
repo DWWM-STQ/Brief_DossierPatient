@@ -1,0 +1,181 @@
+body{
+    background-color: #F7FFFC;
+}
+
+
+.navbar{
+    color: white !important;
+    font-weight: bold !important;
+    padding-left: 2%;
+    
+}
+
+#navbarColor01{
+    padding-left: 50%;
+}
+#navbarColor01 li{
+    padding-left: 10%;
+}
+
+h1{
+    margin-top: 5%;
+    margin-left: 2%;
+    color: #78c2ad !important;
+}
+
+.mainHome, .mainContact, .mainFormP, .mainFormD{
+    display: flex;
+    flex-direction: row;
+}
+.welcomeText{
+    width: 50%;
+    padding-top: 8%;
+    padding-left: 5%;
+    font-size: 2.2rem;
+}
+.imgHome img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgFormP img, .imgFormD img{
+    padding-top: 15%;
+    margin-left: 0;
+}
+.contactForm{
+    width: 50%;
+    padding-top: 8%;
+    padding-left: 5%;
+    text-align: center;
+}
+.form-group{
+    padding: 5% 8% 2% 5%;
+    text-align: center;
+}
+
+.darkgreen{
+    color: #2D7C64 !important;
+}
+.darkred{
+    color: darkred !important;
+}
+
+
+.inscription p{
+    font-size: small;
+}
+
+.formP, .formD{
+    padding: 10%;
+    width: 50%;
+}
+.formP .btn, .formD .btn{
+    margin-left: 45%;
+}
+legend{
+    font-weight: bold;
+    text-align: center;
+}
+
+.dashboardP{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 5% auto 5%;
+}
+.bgBtnListPatient{
+    width: 50%;
+    padding: 2%;
+}
+.btnListPatient{
+    display: flex;
+    flex-direction: column;
+    margin: auto 45% auto 5%;
+}
+.btnListPatient .btnPatient{
+    margin-bottom: 5%;  
+}
+.btn a{
+    color: white !important;
+    text-decoration: none;
+}
+.affListPatient{
+    width: 50%;
+    background-color: rgb(230, 227, 227);
+    border-radius: 10px;
+    padding: 2%;
+    text-align: center;  
+}
+.affListPatient div{
+    margin-bottom: 2%;
+}
+
+.cguText{
+    width: 80%;
+    background-color: rgb(240, 237, 237);
+    border-radius: 10px;
+    padding: 5%;
+    text-align: center;
+    /*margin: 5% auto 5% auto;*/
+}
+
+
+h3{
+    width: 12%;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+.dashboardD {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10em;
+}
+.menu_dashboardD {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardD button {
+    margin: 20px;
+    padding: 10px 50px;
+}
+
+.table_patient {
+
+    width: 45%;
+}
+
+.table_patient tbody tr {
+    height: 10px;
+}
+
+.table_patient tbody tr:nth-child(even) {
+    background-color: #78c2ad;
+    color: #F7FFFC;
+}
+
+.infoP {
+    background-color: #e6e6e6;
+    color: #000000;
+    border-radius: 10px;
+    width: 40%;
+}
+
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: #78c2ad;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+    position: fixed;
+    bottom: 0;
+}
+footer a{
+    color: white !important;
+}
+
